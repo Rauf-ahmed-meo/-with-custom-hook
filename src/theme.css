@@ -1,0 +1,36 @@
+
+:root{
+    --colour: #ffffff;
+    --background: #000;
+}
+
+[data-theme='dark']{
+    --colour: #ffffff;
+    --background: #ffffff;
+}
+
+.ld{
+    width: 100vw;
+    transition: all 0.5s;
+    background-color: var(--background);
+    height: 100vh;
+    overflow: hidden;
+}
+   
+
+/* 
+:root {
+  --colour: #000000;
+  --background: #ffffff;
+}
+
+[data-theme='dark'] {
+  --colour: #ffffff;
+  --background: #000000;
+}
+
+.ld {
+  background-color: var(--background);
+  color: var(--colour);
+  height: 100vh;
+} */
